@@ -44,7 +44,7 @@ const showWinner = (userWins, userChoice, compChoice) => {
 }
 
 const getCompChoice = () => {
-    const options = ["rock", "paper", "scissor"];
+    const options = ["rock", "paper", "scissors"];
     const randomIdx = Math.floor(Math.random()*3);
     return options[randomIdx];
 }
